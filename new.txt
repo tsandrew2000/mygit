@@ -1,0 +1,39 @@
+Methodologies to effectively fight technical debt.
+
+On the code writing level, we will implement a practice of checking
+every new piece of code by other team member on daily basis. Code 
+inspection should also take place every couple of weeks; it will allow 
+our team members to look for inconsistencies and wrong styling. Our 
+programming environment will allow more than one developer to work on 
+a certain feature, so pair programming will be implemented to reduced 
+number of mistakes.
+
+On architecture level, we will create appropriate testing environment, 
+so a place where we can actually see our solutions before they go live 
+is crucial and will help us a lot. We will use structure diagrams 
+accessible for all project members by using tracking tool Jira and make 
+it a good reference for any discussions about the architecture or proposed 
+solutions. Also, we will instill the process of writing well defined 
+requirements that will describe how architecture is supposed to be designed.
+
+On the process level, it's significant that the entire team knows how we 
+work and who's responsible for what. It has a lot to do with communication. 
+Communication is the key factor in succeeding so we will make sure have clear and 
+honest announcement. We will have to introduce visualized procedures by using 
+diagrams of different forms. Also, our team will be open to share the things to 
+improve and to receive feedback on implemented processes. 
+
+On a product level which is the highest level of dealing with the technical 
+debt, we will require a lot of systematic actions from the entire team, mostly 
+from the project manager. We will identify priorities, both from our side and 
+the client's. We will also implement unit tests, integration tests and manual 
+tests which are ways not only to avoid technical debt but also to produce 
+high-quality code that is stable and does not affect the previous work. Only 
+then the development team can come up with new ideas and the genuine interest 
+to make the product better. Daily communication on Slack, video Skype calls or 
+weekly updates will build a relationship with the client and allow us to make 
+a better product for them.
+
+Thus, if we follow all steps in our methodology, we will not fall behind the 
+burden of technical debt and will be able to effectively reduce it.
+
