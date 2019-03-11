@@ -1,5 +1,6 @@
 import unittest
 
+
 from ipcalc import IP, Network
 
 class TestSuite(unittest.TestCase):
@@ -167,7 +168,7 @@ class TestSuite(unittest.TestCase):
 
 class TestIP(unittest.TestCase):
 
-    """Tests for IP."""
+    """Several tests for IP."""
 
     def test_eq_le_gt(self):
         self.assertEqual(IP('192.168.11.0'), IP('192.168.11.0'))
@@ -183,7 +184,7 @@ class TestIP(unittest.TestCase):
 
 class TestNetwork(unittest.TestCase):
 
-    """Tests for Network."""
+    """Tests for My Network."""
 
     def setUp(self):
         self.network = Network('192.168.11.0/255.255.255.0')
@@ -236,3 +237,5 @@ class TestNetwork(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+#Done.
